@@ -8,6 +8,6 @@ sentry_sdk.init(
 )
 
 try:
-    im_gonna_break_more()
+    im_gonna_break_more_3()
 except Exception as e:
     capture_exception(e)
